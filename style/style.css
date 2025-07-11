@@ -116,7 +116,7 @@ button{
     width: 320px;
     padding: 20px;
     border-radius: 14px;
-    background-color: rgb(219, 215, 215);
+    background-color: #FFFFFF;
 
 }
 .star{
@@ -128,4 +128,14 @@ button{
 }
 .review-name{
     display: flex;
+    gap: 10px;
+}
+.reviewer{
+    font-family:"Inter", sans-serif;
+    display: flex;
+    flex-direction: column;
+     color: #757575;
+}
+.pic{
+    border-radius: 100px;
 }
