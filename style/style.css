@@ -5,7 +5,7 @@ nav{
     justify-content: space-between;
     padding: 40px 0px;
  }
-button{
+.btn{
     color: white;
     font-weight: bold;
     border:none;
@@ -27,18 +27,17 @@ button{
     background-image: url(../Assets/Hero-bg.png);
     height: 700px;
 }
-.btn{
-    text-align: center;
-}
+
 .title{
     font-size: 65px;
     font-weight: bold;
     text-align: center;
 }
 .header-content{
+    text-align: center;
     width: 900px;
     margin: 150px auto;
-    font-family: raleway;
+    font-family: "raleway", "sens-serif";
 }
 .main{
     width: 1140px;
@@ -56,7 +55,7 @@ button{
 }
 .paragraph{
     font-size: 25px;
-    color: #252432;
+    color: #4b4b50;
 }
 .action-title{
     font-size: 40px;
@@ -138,4 +137,27 @@ button{
 }
 .pic{
     border-radius: 100px;
+}
+/* ready to focus better section */
+.focus{
+    margin-top: 135px;
+}
+.focus-better{
+    text-align: center;
+}
+.focus-better h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.focus-better button{
+    margin-bottom: 20px;
+}
+.png{
+    width: 840px;
+    height: 364px;
+    margin: 0px auto;
+}
+.big-png{
+    border-radius: 50px;    
 }
