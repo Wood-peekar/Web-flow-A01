@@ -17,7 +17,7 @@ button{
 .logo{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: bolder;
+  font-weight:bolder;
   font-size: 35px;
   font-style: normal;
     color: #4E47FF;
@@ -44,6 +44,7 @@ button{
     width: 1140px;
     margin: 0px auto;
 }
+/* action section */
 .action-content{
     display: flex;
     justify-content: space-between;
@@ -65,4 +66,66 @@ button{
     width: 400px;
     height: 330px;
     border-radius: 50px;
+}
+   /* user information section */
+.pro-user{
+    padding: 50px 140px;
+}
+.user-info{
+    display: flex;
+    justify-content: space-around;
+}
+.user-title{
+    margin: 0px;
+    padding: 20px 0px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    font-family:  "Inter", sans-serif;
+}
+.data{
+    text-align: center;
+    font-size: 80px;
+    color: #4E47FF;
+    font-weight: bold;
+    margin: 0px;
+}
+.user{
+    margin-top: 115px;
+    background-color: #e1e1f0;
+    height: 300px;
+    border-radius: 24px;
+}
+.para{
+    text-align: center;
+    margin: 0px;
+    color: #7c7a7a;
+    font-size: 20px;
+}
+    /* What our users say section */
+
+.user-say{
+    margin-top: 130px;
+}
+.review{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.review-content{
+    width: 320px;
+    padding: 20px;
+    border-radius: 14px;
+    background-color: rgb(219, 215, 215);
+
+}
+.star{
+    display: flex;
+}
+.says{
+    text-align: center;
+    font-size: 40px;
+}
+.review-name{
+    display: flex;
 }
